@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="oceanlights"
+version="1.0.0"
+displayName="Ocean Lights"
+authors="ClearGoat (@BadEnding01)"
+credits="Hecho por ClearGoat (@BadEnding01)"
+description='''
+Shader de luz: una luz de color que ilumina hacia donde miras. Usa /oceanlights <color>.
+'''
+
+[[dependencies.oceanlights]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.oceanlights]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="CLIENT"
